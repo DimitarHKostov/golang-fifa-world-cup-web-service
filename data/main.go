@@ -19,6 +19,7 @@ import (
 // which in real life should be stored and
 // read from a data store.
 var AccessToken = strconv.Itoa(rand.Int())
+var a = "b"
 
 func init() {
 	_, filename, _, _ := runtime.Caller(0)
